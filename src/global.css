@@ -1,0 +1,26 @@
+.list-table {
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 5%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.pagination_right {
+  text-align: right;
+  padding-top: 10px !important;
+}
+
+.ant-pagination-item:focus {
+  border-color: #d9d9d9 !important;
+  transition: all 0.3s;
+}
+
+.ant-pagination-item:focus a {
+  color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.ant-pagination-item-active:focus {
+  border-color: #1890ff !important;
+}
